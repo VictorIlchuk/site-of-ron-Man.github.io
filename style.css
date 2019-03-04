@@ -3,81 +3,148 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	color: rgb(255,255,255);
-    height: 800px;
-    width: ;
+  height: 800px;
 	padding: 0;
 	margin: 0;
 	background: url(https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/08/06/Pictures/_613c5702-994e-11e8-9ea4-7619ca404631.jpg) no-repeat center / cover;
 }
 
-#back-ground-page {
-	background: rgba(48,48,58,0.9);
+.back-ground-page {
+  background: rgba(48,48,58,0.9);
   height: 800px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.ironMan-profile {
-
-}
-
 .window-options {
 background: linear-gradient(to right, rgb(26, 25, 30), rgb(55, 55, 66)) center;
-height: 70vh;
+height: 700px;
 width: 85vw;
 margin: 0 auto;
-
 }
 
-#row-logo {
+.main-row {
 display: flex;
 justify-content: space-between;
-align-items: flex-start;
+align-items: flex-end;
 }
 
 .row-logo {
 height: 40px;
-margin-top: 30px;
 }
 
 .menu{
-margin-left: 90px;
-margin-top: 40px;
+margin-left: 85px;
 height: 20px;	
 }
 
-.nick-name {
+.nick-name {	
 margin-right: 90px;	
 }
 
 .ironMman-card {
-	display: flex;
+display:flex;
+  
+}
+
+.left-menu {
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  margin-left: 17px;
+}
+
+.superHerow-menu1 {
+     color: rgb(222 ,57, 45);
 }
 
 .left-side-background {
-color: rgb(222 ,57, 45);
-font-size: 100px;	
-margin-left: 90px;	
-width: 350px;	
+height: 600px;
+width: 350px;
+margin-left: 50px;	
 background: rgb(255,255,255);
-display: inline-block;
-vertical-align: middle;
 }
 
-#right-side-background {
+.left-side-name{
+  text-align: right;	
+  color: rgb(222 ,57, 45);
+  font-size: 80px;
+  padding-top: 250px;
+  
+}
+
+.left-side-item-1{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding-left: 45px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 170px;
+}
+
+.number2 {
+  color: rgb(170, 170, 173);
+  font-size: 14px;
+}
+
+.left-side-item-2{
+  color: rgb(170, 170, 173); 
+  padding-left: 45px;
+}
+
+.left-side-item-3{
+  color: rgb(170, 170, 173); 
+  font-size: 10px;
+  padding-left: 45px;
+}
+
+.right-side {
 background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsdHkWJVisKCslDjIqzIdFI4P96hhvfZz8qJq1MTNH4ksPPqI9Jg) no-repeat center / cover;
+	height: 600px;
+	width: 565px;
+  font-size: 80px;
 }
 
 .right-side-background {
-	background: rgba(48,48,58,0.9);
-	height: 340px;
-	width: 560px;
-    font-size: 100px;
-    
+  background: rgba(48,48,58,0.9);
+	height: 600px;
+	width: 565px;
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
-.name {
-	 display: inline-block;
-     vertical-align: middle;
+.right-side-name {
+	font-size: 80px;
+  padding-top: 250px; 
 }
+
+button {
+  color: rgb(255,255,255);
+  font-size: 13px;
+  background: rgb(229, 58, 45);
+  border-radius: 5px;
+  border-color: rgb(229, 58, 45); 
+  padding: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 120px;
+  margin-left: 290px;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  font-size: 13px;
+  margin-bottom: 200px;
+  text-decoration: none;
+	color: rgb(170, 170, 173); 
+  margin-left: 290px;
+}
+
+
