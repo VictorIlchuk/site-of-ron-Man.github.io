@@ -34,13 +34,13 @@ align-items: flex-end;
 height: 40px;
 }
 
-.menu{
-margin-left: 85px;
-height: 20px;	
+.menu {
+ margin-left: 85px;
+ height: 20px;	
 }
 
 .nick-name {	
-margin-right: 90px;	
+ margin-right: 90px;	
 }
 
 .ironMman-card {
@@ -150,8 +150,9 @@ a {
 .ironMan {
   position: absolute;
   z-index: 1;
-  align-items: flex-start;
-  height: 600px;
+  height: 700px;
+  display: block;
+  margin-left: 200px;
 }
 
 
